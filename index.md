@@ -6,3 +6,13 @@
 password = "password"
 print (password)
 ```
+
+**some bold texts**
+
+*and some italic texts*
+
+```
+#this is another code block
+
+
+```
