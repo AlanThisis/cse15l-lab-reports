@@ -2,8 +2,7 @@
 
 ## table of contents
 
-* Installing VS Code
-
+* [Installing VS Code](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#installing-vs-code)
 * Remotely Connecting
 * Trying Some Commands
 * Moving Files with scp
@@ -50,3 +49,11 @@ ieng6-203   15:55:01   23  2.14,  2.34,  2.29
 Fri Jan 14, 2022  3:57pm - Prepping cs15lwi22
 ```
 ---
+## Trying some commands
+
+---
+## Moving Files with scp
+---
+## Setting an SSH Key
+---
+## Optimizing Remote Running
