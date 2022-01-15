@@ -3,11 +3,16 @@
 ## table of contents
 
 * [Installing VS Code](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#installing-vs-code)
-* Remotely Connecting
-* Trying Some Commands
-* Moving Files with scp
-* Setting an SSH Key
-* Optimizing Remote Running
+
+* [Remotely Connecting](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#remotely-connecting)
+
+* [Trying Some Commands](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#trying-some-commands)
+
+* [Moving Files with scp](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#moving-files-with-scp)
+
+* [Setting an SSH Key](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#setting-an-ssh-key)
+
+* [Optimizing Remote Running](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#optimizing-remote-running)
 
 ---
 
@@ -49,11 +54,11 @@ ieng6-203   15:55:01   23  2.14,  2.34,  2.29
 Fri Jan 14, 2022  3:57pm - Prepping cs15lwi22
 ```
 ---
-## Trying some commands
+## trying some commands
 
 ---
-## Moving Files with scp
+## moving files with scp
 ---
-## Setting an SSH Key
+## setting an ssh key
 ---
-## Optimizing Remote Running
+## optimizing remote running
