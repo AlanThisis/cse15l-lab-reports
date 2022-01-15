@@ -21,6 +21,8 @@
 Visual Studio Code can be downloaded [here](https://code.visualstudio.com/).
 ![Image](screenshots/vscode.png)
 
+[table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
+
 ---
 
 ## remotely connecting
@@ -37,28 +39,71 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 After typing your password, you would be able to connect to the server.
 
-```
-Last login: Fri Jan 14 15:57:13 2022 from 128.54.166.242
-quota: No filesystem specified.
-Hello cs15lwi22adf, you are currently logged into ieng6-202.ucsd.edu
+![image](screenshots/terminal.png)
 
-You are using 0% CPU on this system
+[table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
 
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   15:55:01   33  3.35,  3.49,  3.64
-ieng6-202   15:55:01   26  7.48,  7.62,  7.14
-ieng6-203   15:55:01   23  2.14,  2.34,  2.29
-
- 
-Fri Jan 14, 2022  3:57pm - Prepping cs15lwi22
-```
 ---
 ## trying some commands
 
+The following are some commands for you to try.
+
+* cd
+
+This command changes your current directory. There are a few ways of using the "cd" command.
+
+```
+cd ~
+```
+This command above opens your home directory.
+
+```
+cd ~/directory/
+```
+This command opens the directory that you specifies. Change the part "~/directory/" to whatever directory you want.
+```
+cd 
+```
+
+Using cd with no following directory names takes you back to home directory.
+
+* ls
+
+The "ls" command allows you to view the content of your current diretory.
+
+```
+ls -l
+ls -a
+ls -t
+ls -lat
+```
+For the commands above, the `-l` command list the cotent with detailed information. `-a` command list hidden files and directories. `-t` command shows items with last edited time.
+* cp
+
+* cat
+
+[table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
+
 ---
 ## moving files with scp
+
+The scp command is used for copying a file from your client to the server.
+Use the command in your client mode.
+
+![image](screenshots/scp.png)
+
+[table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
+
 ---
 ## setting an ssh key
+
+First of all use the command "ssh-keygen" and select a directory to store the public and private key.
+
+![image](screenshots/keygen.png)
+
+[table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
+
 ---
 ## optimizing remote running
+
+[table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
