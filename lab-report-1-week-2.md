@@ -28,6 +28,8 @@ Visual Studio Code can be downloaded [here](https://code.visualstudio.com/).
 ## remotely connecting
 0) If you are on windows operating system, download [openSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) for step zero.
 
+![iamge](screenshots/openssh.png)
+
 1) Lookup your UCSD acount [here](https://sdacs.ucsd.edu/~icc/index.php).
 2) Now it's time to open the terminal. With the information provided, use the command "ssh" followed by your account name. 
 ```
@@ -101,9 +103,32 @@ First of all use the command "ssh-keygen" and select a directory to store the pu
 
 ![image](screenshots/keygen.png)
 
+Now we need to create a hidden directory ".ssh" in the server with the command `mkdir`.
+
+![image](screenshots/mkdir.png)
+
+
+Then use the "scp" command to copy the public key to the server on client. Use the appropriate path for the public key and the path on the server. 
+
+```
+scp id_rsa.pub cs15lwi22***@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
 [table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
 
 ---
 ## optimizing remote running
+
+There are ways of improve the experience of working with servers.
+
+```
+$ ssh cs15lwi22***@ieng6.ucsd.edu "ls"
+```
+Use the commands in quotes after the ssh command will run the command in quotes on the server.
+
+```
+$ javac file.java; java file.java
+```
+
+Use semicolons to run multiple commands.
 
 [table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
