@@ -151,6 +151,7 @@ Now we have know two skills that we can use to optimize our running experience o
     ```
     $java file_name
     ``` 
+    4) this process takes 3 command line and 3 runs for the terminal.
 * knowing the techniques
     1) we can simply use a single line of command to run a java file on the server. we use the example of the file WhereAmI.java in the following terminal output.
     ```
@@ -158,6 +159,8 @@ Now we have know two skills that we can use to optimize our running experience o
     ```
     we will get the result like the following after we key in the command.
     ![image](screenshots/fastrun.png)
+
+    2) This process takes 1 command and 1 run for the terminal.
 
 
 [table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
