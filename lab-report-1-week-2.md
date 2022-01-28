@@ -123,12 +123,41 @@ There are ways of improve the experience of working with servers.
 ```
 $ ssh cs15lwi22***@ieng6.ucsd.edu "ls"
 ```
-Use the commands in quotes after the ssh command will run the command in quotes on the server.
+Use the commands in quotes after the ssh command will run the command in quotes on the server. Running the command above will have the following result.
+
+![image](screenshots/part8-1.png)
+
+
 
 ```
 $ javac file.java; java file.java
 ```
 
 Use semicolons to run multiple commands.
+### small task
+
+Now we have know two skills that we can use to optimize our running experience on a server. I will show you how much more efficient these techniques are by performing a small task: Running a java file on the server.
+
+* without knowing the techniques
+    1) we will have to login to our server with the command 
+    ```
+    $ssh cs15lwi22***@ieng6.ucsd.edu
+    ```
+    2) then we will need to create a java class for the java file
+    ```
+    $javac file_name.java
+    ```
+    3) finally, we are going to run the file
+    ```
+    $java file_name
+    ``` 
+* knowing the techniques
+    1) we can simply use a single line of command to run a java file on the server. we use the example of the file WhereAmI.java in the following terminal output.
+    ```
+    $ssh cs15lwi22***@ieng6.ucsd.edu "javac file_name.java; java file_name"
+    ```
+    we will get the result like the following after we key in the command.
+    ![image](screenshots/fastrun.png)
+
 
 [table of contents](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html#table-of-contents)
