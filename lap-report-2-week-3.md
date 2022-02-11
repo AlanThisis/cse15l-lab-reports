@@ -6,7 +6,7 @@ The screenshot of code change diff.
 
 ![image](screenshots2/infiniteloop.png)
 
-[This is the link to the infinite loop test.](https://alanthisis.github.io/markdown-parse/infinite-loop-test.md)
+[This is the link to the infinite loop test.](https://alanthisis.github.io/markdown-parse/test-file2.md)
 
 ### description
 
@@ -20,7 +20,7 @@ The screenshot of code change diff.
 
 ![image](screenshots2/image.png)
 
-[This is the link to the image test.](https://alanthisis.github.io/markdown-parse/image-test.md)
+[This is the link to the image test.](https://alanthisis.github.io/markdown-parse/test-file4.md)
 
 ### description
 
@@ -32,7 +32,7 @@ The screenshot of code change diff.
 
 ![image](screenshots2/begin-link.png)
 
-[This is the link to the link at the beginning of file test.](https://alanthisis.github.io/markdown-parse/beginning-file.md)
+[This is the link to the link at the beginning of file test.](https://alanthisis.github.io/markdown-parse/test-file3.md)
 
 ### description
 
