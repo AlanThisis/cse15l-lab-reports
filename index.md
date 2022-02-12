@@ -2,6 +2,11 @@
 
 [lab Report 1](https://alanthisis.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[lab Report 2](https://alanthisis.github.io/cse15l-lab-reports/lab-report-2-week-3.html)
+
+[lab Report 3](https://alanthisis.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
+
 [don't click](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ```
