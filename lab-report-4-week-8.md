@@ -51,3 +51,25 @@ The following code is in MarkdownParseTest.java of my repo and the repo I review
 ![image](screenshots4/review-repo-output.png)
 
 * None of the snippet tests are passed.
+
+## Code Changes for Snippet Tests
+---
+
+### Snippet 1
+
+For Snippet 1, I think a small code change for getting links with inline ocde with back ticks is possible. 
+
+**code change**
+> Add an instance that contains the index of back tick. The instance should check for the indices of back ticks of each line. Under certain conditions the getLink method would return a link. 
+>1) not enclosing back ticks
+    >>* return the link unless the back tick is in between the closing bracket and the openning parenthesis
+>2) enclosing back ticks - the following are conditions when a link should be returned
+    >>* both back ticks are within the brackets
+    >>* both back ticks are within the parentheses
+    >>* first back tick is in the parenthesis, and second parenthesis is after closing parenthesis
+
+### Snippet 2
+
+
+
+
