@@ -70,6 +70,18 @@ For Snippet 1, I think a small code change for getting links with inline ocde wi
 
 ### Snippet 2
 
+For snippet 2, I don't think a small code change for nest parentheses and brackets, because small code changes cannot help identify which brackets or parentheses are nested. Although the escaped brackets can be fixed with small code changes.
 
+**code change**
+> add an instance that contains the index of back slash, if the back slash is one index before the indices of brackets, then update the bracket index to the next closest index of bracket
+
+### Snippet 3
+
+For snippet 3, I think a small code change for newlines in brackets and parentheses can be made.
+
+**code change**
+> 1) check "\n" in between the brackets. If there is more than one "\n", then a link should not be returned. 
+> 2) check "\n" after the closing bracket and before the openning parenthesis. If there is "\n", then the linke should not be returned.
+> 3) check "/n" in the parenthesis. First trim the content inside the parenthesis. If the new line is immediately after the openning parenthesis, or immediately before the closing parenthesis, a link should be returned.
 
 
