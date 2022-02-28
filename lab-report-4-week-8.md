@@ -62,11 +62,11 @@ For Snippet 1, I think a small code change for getting links with inline ocde wi
 **code change**
 > Add an instance that contains the index of back tick. The instance should check for the indices of back ticks of each line. Under certain conditions the getLink method would return a link. 
 >1) not enclosing back ticks
-    >>* return the link unless the back tick is in between the closing bracket and the openning parenthesis
+    >> return the link unless the back tick is in between the closing bracket and the openning parenthesis
 >2) enclosing back ticks - the following are conditions when a link should be returned
-    >>* both back ticks are within the brackets
-    >>* both back ticks are within the parentheses
-    >>* first back tick is in the parenthesis, and second parenthesis is after closing parenthesis
+    >> 1. both back ticks are within the brackets
+    >> 2. both back ticks are within the parentheses
+    >> 3. first back tick is in the parenthesis, and second parenthesis is after closing parenthesis
 
 ### Snippet 2
 
