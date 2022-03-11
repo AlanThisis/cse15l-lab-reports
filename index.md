@@ -8,6 +8,8 @@
 
 [lab Report 4](https://alanthisis.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+[lab Report 5](https://alanthisis.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
 
 [don't click](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
