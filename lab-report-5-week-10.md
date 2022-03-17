@@ -38,6 +38,15 @@ The actual output should be `my_(url)`
 
 I think this test is particularly special, because it is a different type of way of embedding a link in a markdown file. The link is made by having two set of brackets with the same content in different line, and the link is the content after colons of the first set of bracket. Implementing for this test would require a big code change.
 
+![image](test-194-bug.png)
+
+The code shown above only works for the typical type of markdown link implementation. Therefore, we need
+1) add a new variable that records the index of immediate colon after closing brackets. 
+2)check if there is another pair of brackets with the same content enclosed
+3) if that is true, then the content immediately after the colon is the link that should be returned
+
+
+
 ## Test 201
 
 In this test, my implementation is correct.
